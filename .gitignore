@@ -31,6 +31,9 @@ out/
 /dist/
 /nbdist/
 /.nb-gradle/
-
 ### VS Code ###
 .vscode/
+
+# Secrets
+.env
+local.properties
