@@ -18,8 +18,8 @@ jobs:
           java-version: 17
 
       - run: chmod +x gradlew
-      - run: ./gradlew clean shadowJar
-
+      - run: ./gradlew clean build
+    
       - uses: appleboy/scp-action@v0.1.7
         with:
           host: ${{ secrets.SERVER_HOST }}
