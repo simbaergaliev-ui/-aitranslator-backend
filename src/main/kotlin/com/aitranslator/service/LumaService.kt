@@ -58,7 +58,7 @@ class LumaService {
                 setBody(
                     CreateGenerationRequest(
                         prompt = prompt,
-                        model = "ray-2",
+                        model = "ray-flash-2",
                         resolution = "720p",
                         duration = durationString
                     )
